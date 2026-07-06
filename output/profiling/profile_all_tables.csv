@@ -1,0 +1,45 @@
+column_name,data_type,distinct_value_count,max_value,min_value,null_count,null_percentage,row_count,sample_values,table_name
+created_at,timestamp,5,2024-05-13 06:38:58.322000,2024-01-31 08:53:22.403000,0,0.0,8,2024-05-01 02:54:03.482000 | 2024-05-10 04:16:27.919000 | 2024-05-13 06:31:39.597000,lead_log
+current_status,string,5,,,0,0.0,8,Deal | Maybe | Fresh,lead_log
+id,int,8,8,1,0,0.0,8,1 | 6 | 3,lead_log
+lead_id,string,5,,,0,0.0,8,a90dcb9c1fc9c63f1e2dc7dbd79ecfd2 | c50f607bbae83f7c53551476e11997eb | 08b8ab0371b6a0cb79319628505c446c,lead_log
+preferred_location,string,3,,,0,0.0,8,GAJAH MADA | ADITYAWARMAN | BENHIL,lead_log
+source_category,string,2,,,0,0.0,8,Online | Offline,lead_log
+timezone_location,string,1,,,0,0.0,8,Asia/Jakarta,lead_log
+timezone_transaction,string,2,,,0,0.0,14,Asia/Jakarta | Asia/Makassar,paid_transactions
+transaction_at,timestamp,14,2024-05-21 09:47:11.535000,2024-05-01 05:07:30.374000,0,0.0,14,2024-05-02 13:46:38.971000 | 2024-05-03 02:00:59.409000 | 2024-05-13 10:23:46.166000,paid_transactions
+transaction_id,string,14,,,0,0.0,14,62afd56341d234457415c97c9c866aa9 | 09b9ee18ba1969f7ce8d23546ae09555 | 91263eaf2af17ac140c6fc23a68882d3,paid_transactions
+transaction_location,string,6,,,0,0.0,14,GREENVILLE | ADITYAWARMAN | BENHIL,paid_transactions
+transaction_status,string,1,,,0,0.0,14,PAID,paid_transactions
+transaction_type,string,2,,,0,0.0,14,NEW | REJOIN,paid_transactions
+created_at,timestamp,3,2024-03-13 02:45:15,2024-03-13 02:44:32,0,0.0,3,2024-03-13 02:45:15 | 2024-03-13 02:45:11 | 2024-03-13 02:44:32,referral_rewards
+id,int,3,3,1,0,0.0,3,1 | 3 | 2,referral_rewards
+reward_type,int,1,1,1,0,0.0,3,1,referral_rewards
+reward_value,string,3,,,0,0.0,3,20 days | 10 days | 15 days,referral_rewards
+homeclub,string,6,,,0,0.0,29,ADITYAWARMAN | PLUIT | BLOK M,user_logs
+id,int,29,29,1,0,0.0,29,28 | 26 | 27,user_logs
+is_deleted,boolean,2,,,0,0.0,29,True | False,user_logs
+membership_expired_date,date,9,2026-03-04,2024-03-31,0,0.0,29,2024-08-27 | 2024-03-31 | 2025-05-12,user_logs
+name,string,7,,,0,0.0,29,ec55b0c6b4cf5e7e08ddcfbc0465b796 | 2eb4b6e1ee9574c9e4a5f7e7e9b09280 | a2d59a13f5f24ae696b0c6917f86a82f,user_logs
+phone_number,string,9,,,0,0.0,29,6e31e9665f3727cedcbdf8c8d9e7fb23 | d02b067e0f767dbb4564526385f49d84 | f495c5b0268d9896b8478ab32bfa02eb,user_logs
+timezone_homeclub,string,2,,,0,0.0,29,Asia/Jakarta | Asia/Makassar,user_logs
+user_id,string,9,,,0,0.0,29,f2de40c8394f4ea9a6aa49965380dd8f | d0a0d9ca8dc4f47226a8afd32ee2a848 | 8575e4f470c06e133f95c4be9aa13934,user_logs
+created_at,timestamp,96,2024-07-10 08:51:11,2024-03-08 11:33:50,0,0.0,96,2024-07-08 06:38:21 | 2024-05-24 12:49:55 | 2024-04-28 10:20:28,user_referral_logs
+id,int,96,96,1,0,0.0,96,31 | 85 | 65,user_referral_logs
+is_reward_granted,boolean,2,,,0,0.0,96,True | False,user_referral_logs
+source_transaction_id,string,17,,,79,82.29,96,3efa130b4bcb9b0675e0c5ac526b1e33 | 8da091c2cab51b8aef9b879bf66c012c | 315005220778899aa196df433f7a4b2c,user_referral_logs
+user_referral_id,string,78,,,0,0.0,96,384755b4689a51d76f2881d087a28140 | af35df49bad27ead3bd2cf4e01d88840 | 4bcdf4d114ea3d37f39e71e872ebc346,user_referral_logs
+created_at,timestamp,2,2024-03-08 10:07:10,2024-03-08 08:49:37,0,0.0,3,2024-03-08 10:07:10 | 2024-03-08 08:49:37,user_referral_statuses
+description,string,3,,,0,0.0,3,Berhasil | Menunggu | Tidak Berhasil,user_referral_statuses
+id,int,3,3,1,0,0.0,3,1 | 3 | 2,user_referral_statuses
+referee_id,string,37,,,3,6.52,46,e04c6b50af7c034b0b48b4afdde0e2c9 | 12dd343d282fb7915f55982937c30b87 | 8cba435bca358b92462a30bc999598bf,user_referrals
+referee_name,string,35,,,3,6.52,46,2eb4b6e1ee9574c9e4a5f7e7e9b09280 | fa8e148b928aac56782d5c50042aee7b | b2b3dd66bfbbfb5154c3d6287784d0c8,user_referrals
+referee_phone,string,33,,,0,0.0,46,881fb2c28d8cd331725917358f54f8ab | 9c29e785a9fadbb9c13e8ab7dce211a5 | 6868015ee627081d0ec2e58f8c08ed45,user_referrals
+referral_at,timestamp,44,2024-05-24 04:57:33,2024-03-08 11:31:24,0,0.0,46,2024-05-05 12:03:23 | 2024-05-13 09:47:45 | 2024-05-02 04:19:27,user_referrals
+referral_id,string,46,,,0,0.0,46,24e66dee053da38b3a19bfb9e91e8faf | e74f3e7cae96a2c81a7970ec3a8ccb82 | 9e9324e6fde29bb0d230654b38ccfdd4,user_referrals
+referral_reward_id,string,3,,,38,82.61,46,3 | 1 | 2,user_referrals
+referral_source,string,3,,,0,0.0,46,Draft Transaction | Lead | User Sign Up,user_referrals
+referrer_id,string,13,,,13,28.26,46,1eab0611433407d851896635a5b735f5 | 2bab9f04bacea881a9e796136ac186da | f2de40c8394f4ea9a6aa49965380dd8f,user_referrals
+transaction_id,string,27,,,13,28.26,46,e283b54d76844faaa985f83b037de8a2 | 62afd56341d234457415c97c9c866aa9 | da0071e2bb7794ac19ff4dbbb6e772f0,user_referrals
+updated_at,timestamp,40,2024-05-24 04:57:33,2024-04-29 04:04:15,0,0.0,46,2024-05-05 12:03:23 | 2024-05-13 09:47:45 | 2024-05-02 04:19:27,user_referrals
+user_referral_status_id,int,3,3,1,0,0.0,46,1 | 3 | 2,user_referrals

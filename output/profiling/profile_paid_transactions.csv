@@ -1,0 +1,7 @@
+column_name,data_type,distinct_value_count,max_value,min_value,null_count,null_percentage,row_count,sample_values,table_name
+timezone_transaction,string,2,,,0,0.0,14,Asia/Jakarta | Asia/Makassar,paid_transactions
+transaction_at,timestamp,14,2024-05-21 09:47:11.535000,2024-05-01 05:07:30.374000,0,0.0,14,2024-05-02 13:46:38.971000 | 2024-05-03 02:00:59.409000 | 2024-05-13 10:23:46.166000,paid_transactions
+transaction_id,string,14,,,0,0.0,14,62afd56341d234457415c97c9c866aa9 | 09b9ee18ba1969f7ce8d23546ae09555 | 91263eaf2af17ac140c6fc23a68882d3,paid_transactions
+transaction_location,string,6,,,0,0.0,14,GREENVILLE | ADITYAWARMAN | BENHIL,paid_transactions
+transaction_status,string,1,,,0,0.0,14,PAID,paid_transactions
+transaction_type,string,2,,,0,0.0,14,NEW | REJOIN,paid_transactions

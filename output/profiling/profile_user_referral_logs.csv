@@ -1,0 +1,6 @@
+column_name,data_type,distinct_value_count,max_value,min_value,null_count,null_percentage,row_count,sample_values,table_name
+created_at,timestamp,96,2024-07-10 08:51:11,2024-03-08 11:33:50,0,0.0,96,2024-07-08 06:38:21 | 2024-05-24 12:49:55 | 2024-04-28 10:20:28,user_referral_logs
+id,int,96,96,1,0,0.0,96,31 | 85 | 65,user_referral_logs
+is_reward_granted,boolean,2,,,0,0.0,96,True | False,user_referral_logs
+source_transaction_id,string,17,,,79,82.29,96,3efa130b4bcb9b0675e0c5ac526b1e33 | 8da091c2cab51b8aef9b879bf66c012c | 315005220778899aa196df433f7a4b2c,user_referral_logs
+user_referral_id,string,78,,,0,0.0,96,384755b4689a51d76f2881d087a28140 | af35df49bad27ead3bd2cf4e01d88840 | 4bcdf4d114ea3d37f39e71e872ebc346,user_referral_logs

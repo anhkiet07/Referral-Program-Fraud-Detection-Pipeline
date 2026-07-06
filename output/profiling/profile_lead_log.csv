@@ -1,0 +1,8 @@
+column_name,data_type,distinct_value_count,max_value,min_value,null_count,null_percentage,row_count,sample_values,table_name
+created_at,timestamp,5,2024-05-13 06:38:58.322000,2024-01-31 08:53:22.403000,0,0.0,8,2024-05-01 02:54:03.482000 | 2024-05-10 04:16:27.919000 | 2024-05-13 06:31:39.597000,lead_log
+current_status,string,5,,,0,0.0,8,Deal | Maybe | Fresh,lead_log
+id,int,8,8,1,0,0.0,8,1 | 6 | 3,lead_log
+lead_id,string,5,,,0,0.0,8,a90dcb9c1fc9c63f1e2dc7dbd79ecfd2 | c50f607bbae83f7c53551476e11997eb | 08b8ab0371b6a0cb79319628505c446c,lead_log
+preferred_location,string,3,,,0,0.0,8,GAJAH MADA | ADITYAWARMAN | BENHIL,lead_log
+source_category,string,2,,,0,0.0,8,Online | Offline,lead_log
+timezone_location,string,1,,,0,0.0,8,Asia/Jakarta,lead_log

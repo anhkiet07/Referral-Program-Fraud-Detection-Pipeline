@@ -1,0 +1,9 @@
+column_name,data_type,distinct_value_count,max_value,min_value,null_count,null_percentage,row_count,sample_values,table_name
+homeclub,string,6,,,0,0.0,29,ADITYAWARMAN | PLUIT | BLOK M,user_logs
+id,int,29,29,1,0,0.0,29,28 | 26 | 27,user_logs
+is_deleted,boolean,2,,,0,0.0,29,True | False,user_logs
+membership_expired_date,date,9,2026-03-04,2024-03-31,0,0.0,29,2024-08-27 | 2024-03-31 | 2025-05-12,user_logs
+name,string,7,,,0,0.0,29,ec55b0c6b4cf5e7e08ddcfbc0465b796 | 2eb4b6e1ee9574c9e4a5f7e7e9b09280 | a2d59a13f5f24ae696b0c6917f86a82f,user_logs
+phone_number,string,9,,,0,0.0,29,6e31e9665f3727cedcbdf8c8d9e7fb23 | d02b067e0f767dbb4564526385f49d84 | f495c5b0268d9896b8478ab32bfa02eb,user_logs
+timezone_homeclub,string,2,,,0,0.0,29,Asia/Jakarta | Asia/Makassar,user_logs
+user_id,string,9,,,0,0.0,29,f2de40c8394f4ea9a6aa49965380dd8f | d0a0d9ca8dc4f47226a8afd32ee2a848 | 8575e4f470c06e133f95c4be9aa13934,user_logs
